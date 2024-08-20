@@ -85,7 +85,7 @@ const Weather = () => {
                 <button onClick={handleClick}>Get Weather</button>
                 {weather && (
                     <div className='weather-info'>
-                        <h3>{weather.name}</h3>
+                        <h3>City : {weather.name}</h3>
                         <span>Temperature: {weather.main.temp} °C</span>
                         <span>Description: {weather.weather[0].description}</span>
                         <span>Humidity: {weather.main.humidity}%</span>
